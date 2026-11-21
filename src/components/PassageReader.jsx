@@ -90,7 +90,7 @@ export default function PassageReader({reference,verses=[],selectedVerse,onSelec
       // Run on the next microtask after refs have been updated.
       Promise.resolve().then(()=>playFrom(0));
     }
-  },[reference]); // eslint-disable-line react-hooks/exhaustive-deps
+  },[reference,verses,autoPlay]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <section className="reader-body">
     <div className="audio-dock" aria-label="Bible audio controls">
