@@ -1,0 +1,7 @@
+{
+  "appId": "com.wayudiesa.scriptureflow",
+  "appName": "ScriptureFlow",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false }
+}
